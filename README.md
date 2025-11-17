@@ -2,6 +2,8 @@
 
 Sistema gerenciador de pagamentos multi-gateway desenvolvido em Laravel 10. Este projeto foi implementado seguindo as melhores práticas de desenvolvimento, Clean Code, TDD (Test-Driven Development) e arquitetura escalável.
 
+**Repositório:** [https://github.com/lfvicoso/api-multi-gateway](https://github.com/lfvicoso/api-multi-gateway)
+
 ## 📋 Sobre o Projeto
 
 Este é um sistema completo de gerenciamento de pagamentos que permite processar transações através de múltiplos gateways de pagamento. O sistema tenta processar o pagamento em cada gateway seguindo uma ordem de prioridade configurável. Se um gateway falhar, o sistema automaticamente tenta o próximo gateway disponível.
@@ -52,7 +54,7 @@ Este é um sistema completo de gerenciamento de pagamentos que permite processar
 ### 1. Clone o repositório
 
 ```bash
-git clone <url-do-repositorio>
+git clone https://github.com/lfvicoso/api-multi-gateway.git
 cd api-multi-gateway
 ```
 
